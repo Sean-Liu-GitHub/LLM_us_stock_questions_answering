@@ -1,0 +1,103 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Notebook output files
+**/output/
+*.ipynb
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Environments and tools
+.pip/ # pip-clutter
+*.pkl # pickle files, which may contain sensitive data
+*.dat # other serialized data formats
+*.json # JSON files used for configuration or data
+
+# Editor and OS-specific files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# LLM specific directories or files
+data/
+models/
+checkpoints/
+runs/
+*.h5
+*.ckpt
+*.pt
+*.onnx
+
+# Docker-related files (if Docker is used in your project)
+docker-compose.override.yml
+
+# Sensitive files
+*.secret
+.env.local
+.env.deploy
+.env.production
+
+# If you're using conda
+conda-meta/
+*.conda
+*.lock
+environment.yml
+
+# Ignore files containing API keys or secrets
+api_keys.py
+credentials/
+.key
+
+# Miscellaneous
+*.tmp
+*.temp
+*.orig
+*~
