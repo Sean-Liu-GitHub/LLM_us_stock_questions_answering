@@ -40,7 +40,6 @@ venv.bak/
 
 # Notebook output files
 **/output/
-*.ipynb
 
 # PyCharm
 .idea/
