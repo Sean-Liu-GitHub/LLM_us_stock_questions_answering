@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  elasticsearch:
+    image: elasticsearch:8.4.3
+    container_name: elasticsearch_fqab
+    environment:
+      - "discovery.type=single-node"
+      - "xpack.security.enabled=false"
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    stdin_open: true
+    tty: true
+    restart: 'no'
